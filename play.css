@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto+Condensed:wght@300&display=swap');
+*{
+  margin: 0%;
+  font-family: 'Fredoka', sans-serif;
+  padding: 0%;
+}
+.mainDiv{
+  display: grid;
+  grid-template-columns: 60% 25% ;
+  grid-template-rows: 100% ;
+  gap: 30px;
+  margin-top: 2px;
+  height:103vh; 
+ justify-content: center;
+}
+
+#relatedYoutube>div>p{
+cursor: pointer;
+
+
+}
+
+#relatedYoutube>div{
+  margin-top: 20px;
+}
+
+#relatedYoutube{
+  width:400px;
+  overflow-y: scroll;
+  overflow-x: hidden; 
+  
+}
+
